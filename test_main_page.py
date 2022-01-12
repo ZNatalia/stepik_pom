@@ -1,4 +1,4 @@
-from pages.login_page import LoginPage
+from .pages.login_page import LoginPage
 from .pages.main_page import MainPage
 
 # To run: pytest -v --tb=line --language=en test_main_page.py
